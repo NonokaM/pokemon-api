@@ -1,7 +1,7 @@
 import { useDeferredValue, useEffect, useState } from 'react';
 import './App.css';
 import {getAllPokemon, getPokemon} from "./utils/pokemon.js"
-import Card from './components/Card';
+import Card from './components/Card/Card';
 
 function App() {
   const initialURL = "https://pokeapi.co/api/v2/pokemon";
