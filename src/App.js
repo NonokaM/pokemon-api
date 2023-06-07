@@ -65,7 +65,7 @@ function App() {
       <Navber />
       <div className="App">
         {loading ? (
-          <h1>ロード中...</h1>
+          <div className="spinner"></div>
         ) : (
           <>
           <div className='pokemonCardContainer'>
